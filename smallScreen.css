@@ -1,5 +1,31 @@
-@media screen and (max-width: 1200px) and (min-width: 321px) {
-    body {
-      background: red;
-    }
+/* TELEPHONE */
+@media only screen and (min-width: 320px) {
+  #banniere {
+    width: 19.7em;
+  }
+  textarea {
+    height: 10em;
+    width: 19em;
+  }
+}
+
+/* TABLETTE */
+@media only screen and (min-width: 768px) {
+  #banniere {
+    width: 47.7em;
+  }
+}
+
+/* PC PORTABLE */
+@media only screen and (min-width: 1024px) {
+  #banniere {
+    width: 63.6em;
+  }
+}
+
+/* PC BUREAU  */
+@media only screen and (min-width: 1440px) {
+  #banniere {
+    width: 89.6em;
+  }
 }

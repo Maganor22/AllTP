@@ -45,6 +45,11 @@ body::-webkit-scrollbar-thumb {
     width: 103rem;
 }
 
+textarea {
+    height: 10em;
+    width: 70em;
+}
+
 /* BALISES */
 
 ul:not(#notme) {
