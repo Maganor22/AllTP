@@ -13,12 +13,11 @@ body {
 }
 
 ul:not(#notme) {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
-li {
-    margin: 20px 100px 20px 0;
+ul:not(.notme) {
+    margin: 20px 0 20px 0;
 }
 
 h1 {
@@ -52,6 +51,10 @@ img {
     height: 100px;
     justify-content: center;
     border: #8D99AE 2px solid;
+}
+
+p {
+    margin: 10px;
 }
 
 label + p,
@@ -90,7 +93,7 @@ fieldset {
     width: 500px;
     margin-left: 5px;
 }
-
+    
 .red {
     color: red;
 }
