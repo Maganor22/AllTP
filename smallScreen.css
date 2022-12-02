@@ -5,14 +5,35 @@
   }
   textarea {
     height: 10em;
-    width: 19em;
+    width: 19.8em;
   }
 }
+
+@media only screen and (min-width: 425px) {
+  #banniere {
+    width: 26.3em;
+  }
+  textarea {
+    height: 10em;
+    width: 27em;
+  }
+}
+
 
 /* TABLETTE */
 @media only screen and (min-width: 768px) {
   #banniere {
     width: 47.7em;
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 787px) {
+  #banniere {
+    width: 48.8em;
+  }
+  textarea {
+    height: 10em;
+    width: 27em;
   }
 }
 

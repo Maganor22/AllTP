@@ -45,12 +45,12 @@ body::-webkit-scrollbar-thumb {
     width: 103rem;
 }
 
+/* BALISES */
+
 textarea {
     height: 10em;
     width: 70em;
 }
-
-/* BALISES */
 
 ul:not(#notme) {
     text-align: center;
