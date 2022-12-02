@@ -19,6 +19,7 @@
   }
 }
 
+/* S10 + */
 @media only screen and (min-width: 412px) {
   #banniere {
     width: 25.3em;
@@ -28,6 +29,7 @@
     width: 26.6em;
   }
 }
+
 
 @media only screen and (min-width: 425px) {
   #banniere {
@@ -43,6 +45,17 @@
 @media only screen and (min-width: 768px) {
   #banniere {
     width: 47.7em;
+  }
+}
+
+/* S10+ Landscape */
+@media screen and (min-width: 869px) and (orientation: landscape) {
+  #banniere {
+    width: 54.2em;
+  }
+  textarea {
+    height: 10em;
+    width: 40em;
   }
 }
 

@@ -1,7 +1,7 @@
-body {
+/* body {
     background: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
 }
-
+ */
 body::-webkit-scrollbar {
     width: 12px;
 }
