@@ -2,15 +2,50 @@ body {
     background: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
 }
 
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle at top, black, red, rgba(255, 255, 0, 0.603), red, black);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+/* CLASSES */
+
+.thatimg {
+    display: flex;
+    justify-content: center;
+}
+
+.Tp2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.red {
+    color: red;
+}
+
+/* ID */
+
 #divbanniere {
     display: flex;
     justify-content: center;
 }
 
 #banniere {
-    margin: 0 0 30px 0;
-    width: 2000px;
+    margin-bottom: 30px;
+    width: 103rem;
 }
+
+/* BALISES */
 
 ul:not(#notme) {
     text-align: center;
@@ -40,10 +75,7 @@ label {
     margin: 0 5px 0 0px;
 }
 
-.thatimg {
-    display: flex;
-    justify-content: center;
-}
+
 
 img {
     display: flex;
@@ -66,10 +98,6 @@ input {
     margin-bottom: 10px;
 }
 
-.Tp2 {
-    margin-top: 50px;
-}
-
 article {
     border: black 1px solid;
     margin: 0 5px 10px 5px;
@@ -86,18 +114,16 @@ a {
 a:hover {
     color: #2B2D42;
 }
+    
+footer {
+    text-align: end;
+}
+
+/* PAGE CONTACT */
 
 fieldset {
     padding: 20px;
     border: black 2px solid;
     width: 500px;
     margin-left: 5px;
-}
-    
-.red {
-    color: red;
-}
-
-footer {
-    text-align: end;
 }
