@@ -1,0 +1,58 @@
+div {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    transition-property: background-color, width, height, rotate, margin;
+    transition-duration: 1.5s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+div:hover {
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    rotate: 360deg;
+    margin-left: 100px;
+}
+
+#image_suit_souris{
+    position:absolute;
+    display:block;
+    z-index:5;
+}
+
+h1 {
+    width: fit-content;
+    color: red;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+h1:hover {
+    color: green;
+    animation: thisanimation 2s;
+}
+
+p {
+    transition-property: rotate;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+p:hover {
+    rotate: 360deg;
+}
+
+@keyframes thisanimation {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX(1000px) rotate(10turn);
+    }
+}
