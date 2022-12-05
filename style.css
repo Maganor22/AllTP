@@ -1,0 +1,26 @@
+.bgmain {
+    background-color: grey;
+    height: 350px;
+    width: 800px;
+}
+
+h1 {
+    color: lightgrey;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.imblue {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.move {
+    margin: 10px;
+}
+
+.bgwhite {
+    background-color: white;
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+}
